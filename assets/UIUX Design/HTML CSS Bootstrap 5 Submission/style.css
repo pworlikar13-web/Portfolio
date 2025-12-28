@@ -1,0 +1,85 @@
+body {
+  font-family: 'El Messiri', sans-serif;
+  
+}
+
+h1 {
+  margin-block: 1pt;
+  font-size: 70pt;
+}
+
+:where(h1) {
+  margin-block: 1pt;
+  font-size: 70pt;
+  font-family: Georgia, serif;
+}
+
+h4 {
+  margin-block: 1pt;
+  font-size: 35pt;
+}
+
+:where(h4) {
+  margin-block: 1pt;
+  font-size: 35pt;
+  font-family: Georgia, serif;
+}
+
+.bg-light {
+  background-color: #F9F5EA !important;
+}
+
+.bg-pg
+{
+  background-color: #FFFDF9; !important
+}
+
+.hero-section {
+ color: #002955;
+ padding-top: 10%;
+ padding-left: 20%; 
+}
+
+.section-title {
+  font-family: 'Playfair Display', serif;
+  position: relative;
+  display: inline-block;
+}
+
+.section-title::before {
+  content: "";
+  width: 50pt;
+  height: 50pt;
+  outline-color: orange;
+  position: absolute;
+  left: -30px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.welcome-box {
+  height: 160pt; width: 600pt;
+  padding: top 10px;
+  
+}
+.countdown-box {
+  height: 160pt; width: 300pt;
+  
+}
+
+.sponsor-logo {
+  width: 150px;
+  height: 150px;
+  object-fit: contain;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+/* Twitter */
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
